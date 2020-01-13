@@ -59,6 +59,8 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Company.all`
   - Returns an array of all Company instances
 
+  
+
 #### Dev
 
 - `Dev#initialize(name)`
