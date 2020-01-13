@@ -27,6 +27,9 @@ steven = Dev.new("Steven")
 
 
 f1 = bloomberg.give_freebie(mike, "sticker")
+f2 = microsoft.give_freebie(theo, "surface")
+f3 = bloomberg.give_freebie(theo, "sticker")
+f4 = microsoft.give_freebie(theo, "surface")
 
 
 
