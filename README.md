@@ -50,61 +50,61 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Company
 
-- `Company#initialize(name, founding_year)`
+[x]- `Company#initialize(name, founding_year)`
   - should initialize with a name (string) and founding_year (integer)
-- `Company#name`
+[x]- `Company#name`
   - should return the name of the company
-- `Company#founding_year`
+[x]- `Company#founding_year`
   - should return the founding_year
-- `Company.all`
+[x]- `Company.all`
   - Returns an array of all Company instances
 
 #### Dev
 
-- `Dev#initialize(name)`
+[x]- `Dev#initialize(name)`
   - should initialize with a name (string)
-- `Dev#name`
+[x]- `Dev#name`
   - should return the name of the dev
-- `Dev.all`
+[x]- `Dev.all`
   - Returns an array of all Dev instances
 
 #### Freebie
 
-- `Freebie#initialize(item_name, company, dev)`
+[x]- `Freebie#initialize(item_name, company, dev)`
   - should initialize with an item name (string), company (`Company` instance) and dev (`Dev` instance)
-- `Freebie#item_name`
+[x]- `Freebie#item_name`
   - should return the name of the item, ie. `"sticker"` or `"water bottle"`
-- `Freebie.all`
+[x]- `Freebie.all`
   - Returns an array of all Freebie instances
 
 ### Object Relationship Methods
 
 #### Company
 
-- `Company#freebies`
+[x]- `Company#freebies`
   - returns an array of all the freebies given out by the company
-- `Company#devs`
+[x]- `Company#devs`
   - returns a **unique** array of all the devs who received freebie(s) from the company
 
 #### Dev
 
-- `Dev#freebies`
+[x]- `Dev#freebies`
   - returns an array of all the freebies that the dev owns
-- `Dev#companies`
+[x]- `Dev#companies`
   - returns a **unique** array of all the companies that the dev received freebie(s) from
 
 #### Freebie
 
-- `Freebie#dev`
+[x]- `Freebie#dev`
   - should return the `Dev` instance for this freebie
-- `Freebie#company`
+[x]- `Freebie#company`
   - should return the `Company` instance for this freebie
 
 ### Aggregate and Association Methods
 
 #### Company
 
-- `Company#give_freebie(dev, item_name)`
+[x]- `Company#give_freebie(dev, item_name)`
   - takes a `dev` (an instance of the `Dev` class) and an `item_name` (string) as arguments, and creates a new `Freebie` instance associated with this company and the given dev
 - `Company.oldest_company`
   - returns the `Company` instance with the earliest founding year
