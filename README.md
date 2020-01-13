@@ -55,7 +55,7 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Company#name`
   - should return the name of the company
 - `Company#founding_year`
-  - should return the founding_year
+  - should return the founding year
 - `Company.all`
   - Returns an array of all Company instances
 
@@ -82,16 +82,16 @@ Some of the methods listed are provided to you in the starter code. You should c
 #### Company
 
 - `Company#freebies`
-  - returns an array of all the freebies given out by the company
+  - returns an array of all the `Freebie` instances given out by the company
 - `Company#devs`
-  - returns a **unique** array of all the devs who received freebie(s) from the company
+  - returns a **unique** array of all `Dev` instances who received freebie(s) from the company
 
 #### Dev
 
 - `Dev#freebies`
-  - returns an array of all the freebies that the dev owns
+  - returns an array of all the `Freebie` instances that the dev owns
 - `Dev#companies`
-  - returns a **unique** array of all the companies that the dev received freebie(s) from
+  - returns a **unique** array of all `Company` instances that the dev received freebie(s) from
 
 #### Freebie
 
@@ -109,21 +109,21 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Company.oldest_company`
   - returns the `Company` instance with the earliest founding year
 - `Company.most_distributed`
-  - should return an instance of `Company` which has the most freebies given out to devs
+  - returns the `Company` instance which has the most freebies given out to devs
 
 #### Dev
 
 - `Dev#received_one?(item_name)`
-  - accepts an item_name (string) and returns true if any of the freebies associated with the dev has that item_name, otherwise returns false
+  - accepts an item_name (string) and returns `true` if any of the freebies associated with the dev has that item_name, otherwise returns `false`
 - `Dev#give_away(dev, freebie)`
   - accepts a `Dev` instance and a `Freebie` instance, changes the freebie's dev to be the given dev
 - `Dev.freebie_hoarder`
-  - returns *one* dev instance for the dev who owns the most amount of freebies
+  - returns the `Dev` instance who owns the most amount of freebies
 
 #### Freebie
 
 - `Freebie#print_details`
-  - should return a string formatted as follows: `{insert dev's name} owns a {insert freebie's item_name} from {insert company's name}`
+  - returns a string formatted as follows: `{insert dev's name} owns a {insert freebie's item_name} from {insert company's name}`
 
 ## Rubric
 
