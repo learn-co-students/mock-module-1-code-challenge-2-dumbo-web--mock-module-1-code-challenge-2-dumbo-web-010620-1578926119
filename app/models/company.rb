@@ -21,4 +21,7 @@ class Company
     freebie_instance.company == self
     end
   end
+  def give_freebie(dev, item_name)
+      Freebie.new(dev, self, item_name)
+    end
   end

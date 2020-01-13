@@ -9,5 +9,7 @@ class Freebie
     def self.all
         @@all
     end
-
+   def print_details
+   puts `#{self.dev's.name} owns a #{self.freebie's.item_name} from #{self.company's.name}`
+     end
 end
