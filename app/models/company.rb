@@ -13,7 +13,7 @@ class Company
     freebies.company
       end
    end
-   def companies
+   def devs
     self.dev.map(&:companies).uniq
   end
   def company

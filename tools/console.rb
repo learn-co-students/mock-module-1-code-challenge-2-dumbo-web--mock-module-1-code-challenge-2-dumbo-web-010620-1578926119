@@ -15,7 +15,7 @@ d2=Dev.new("Marry")
 d3=Dev.new("Andrew")
 
 # item_name, :company, :dev
-f1=Freebie.new("pen",c1,d1)
+f1=Freebie.new("pen","c1",d1)
 f2=Freebie.new("pencil",c2,d2)
 f3=Freebie.new("paper",c3,d3)
 
