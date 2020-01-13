@@ -51,13 +51,13 @@ Some of the methods listed are provided to you in the starter code. You should c
 #### Company
 
 - `Company#initialize(name, founding_year)`
-  - should initialize with a name (string) and founding_year (integer)
+    [x] - should initialize with a name (string) and founding_year(integer)
 - `Company#name`
-  - should return the name of the company
+    [x] - should return the name of the company
 - `Company#founding_year`
-  - should return the founding_year
+    [x] - should return the founding_year
 - `Company.all`
-  - Returns an array of all Company instances
+    [x] - Returns an array of all Company instances
 
 #### Dev
 
@@ -96,9 +96,9 @@ Some of the methods listed are provided to you in the starter code. You should c
 #### Freebie
 
 - `Freebie#dev`
-  - should return the `Dev` instance for this freebie
+  [x] - should return the `Dev` instance for this freebie
 - `Freebie#company`
-  - should return the `Company` instance for this freebie
+  [x] - should return the `Company` instance for this freebie
 
 ### Aggregate and Association Methods
 
