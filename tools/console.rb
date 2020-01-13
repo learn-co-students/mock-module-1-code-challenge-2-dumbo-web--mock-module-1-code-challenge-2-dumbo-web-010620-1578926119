@@ -11,9 +11,7 @@ end
 # so they will be available to test and play around with in your console
 
 
-
-
-
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
 binding.pry
 0
+
