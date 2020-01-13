@@ -50,55 +50,55 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Company
 
-- `Company#initialize(name, founding_year)`
-  - should initialize with a name (string) and founding_year (integer)
-- `Company#name`
-  - should return the name of the company
-- `Company#founding_year`
-  - should return the founding_year
-- `Company.all`
-  - Returns an array of all Company instances
+<!-- - `Company#initialize(name, founding_year)`
+  - should initialize with a name (string) and founding_year (integer) -->
+<!-- - `Company#name`
+  - should return the name of the company -->
+<!-- - `Company#founding_year`
+  - should return the founding_year -->
+<!-- - `Company.all`
+  - Returns an array of all Company instances -->
 
 #### Dev
 
-- `Dev#initialize(name)`
-  - should initialize with a name (string)
-- `Dev#name`
-  - should return the name of the dev
-- `Dev.all`
-  - Returns an array of all Dev instances
+<!-- - `Dev#initialize(name)`
+  - should initialize with a name (string) -->
+<!-- - `Dev#name`
+  - should return the name of the dev -->
+<!-- - `Dev.all`
+  - Returns an array of all Dev instances -->
 
 #### Freebie
 
-- `Freebie#initialize(item_name, company, dev)`
+<!-- - `Freebie#initialize(item_name, company, dev)`
   - should initialize with an item name (string), company (`Company` instance) and dev (`Dev` instance)
 - `Freebie#item_name`
   - should return the name of the item, ie. `"sticker"` or `"water bottle"`
 - `Freebie.all`
-  - Returns an array of all Freebie instances
+  - Returns an array of all Freebie instances -->
 
 ### Object Relationship Methods
 
 #### Company
 
-- `Company#freebies`
+<!-- - `Company#freebies`
   - returns an array of all the freebies given out by the company
 - `Company#devs`
-  - returns a **unique** array of all the devs who received freebie(s) from the company
+  - returns a **unique** array of all the devs who received freebie(s) from the company -->
 
 #### Dev
 
-- `Dev#freebies`
+<!-- - `Dev#freebies`
   - returns an array of all the freebies that the dev owns
 - `Dev#companies`
-  - returns a **unique** array of all the companies that the dev received freebie(s) from
+  - returns a **unique** array of all the companies that the dev received freebie(s) from -->
 
 #### Freebie
 
-- `Freebie#dev`
+<!-- - `Freebie#dev`
   - should return the `Dev` instance for this freebie
 - `Freebie#company`
-  - should return the `Company` instance for this freebie
+  - should return the `Company` instance for this freebie -->
 
 ### Aggregate and Association Methods
 
@@ -113,7 +113,7 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Dev
 
-- `Dev#received_one?(item_name)`
+---------> `Dev#received_one?(item_name)`
   - accepts an item_name (string) and returns true if any of the freebies associated with the dev has that item_name, otherwise returns false
 - `Dev#give_away(dev, freebie)`
   - accepts a `Dev` instance and a `Freebie` instance, changes the freebie's dev to be the given dev
