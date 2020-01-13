@@ -11,7 +11,12 @@ end
 # so they will be available to test and play around with in your console
 
 
-
+c1=Company.new("Phizer", 1902)
+c2=Company.new("RiteAid", 1900)
+d1=Dev.new("idk")
+d2=Dev.new("idk2")
+f1=Freebie.new("medicine", "Phizer", "idk")
+f2=Freebie.new("bandage", "RiteAid", "idk2")
 
 
 # ===== WARNING! DO NOT EDIT BELOW THIS LINE ===== #
