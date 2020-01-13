@@ -5,4 +5,16 @@ class Dev
     @name = name
   end
 
+  def name
+    return @name
+  end
+
+  def freebies
+  end
+
+  
+
+  def all
+    @all
+  end
 end
