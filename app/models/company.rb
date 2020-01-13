@@ -17,7 +17,6 @@ class Company
   # returns an array of all the freebies given out by the company
 
   def company_freebies
-
   end
 
   # `Company#devs`
