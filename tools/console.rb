@@ -10,6 +10,9 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
+Dev.new("tony")
+Company.new("apple","2020")
+Freebie.new("phone", "apple", "tony")
 
 
 
